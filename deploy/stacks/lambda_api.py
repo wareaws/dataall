@@ -142,7 +142,6 @@ class LambdaApiStack(pyNestedClass):
             on_failure=lambda_destination.SqsDestination(self.esproxy_dlq),
             tracing=_lambda.Tracing.ACTIVE,
             logging_format=_lambda.LoggingFormat.JSON,
-            application_log_level_v2=getattr(_lambda.ApplicationLogLevel, log_level),
         )
 
         self.api_handler_dlq = self.set_dlq(f'{resource_prefix}-{envname}-graphql-dlq')
