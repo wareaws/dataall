@@ -1,4 +1,3 @@
-python
 from aws_cdk.aws_lambda import Runtime
 
 """
