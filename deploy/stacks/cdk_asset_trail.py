@@ -1,4 +1,3 @@
-python
 """
 **Warning:** This file is symlinked and reused in CDK deploy/stacks/cdk_asset_trail.py
 """
