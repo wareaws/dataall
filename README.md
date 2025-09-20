@@ -18,4 +18,3 @@ relevant data and let them use the power of the AWS cloud to create data driven 
 
 Visit our [GitHub pages](https://data-dot-all.github.io/dataall/) to get started and learn more about the architecture
 and the code of **data.all**
-
