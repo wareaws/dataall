@@ -6,7 +6,7 @@ phases:
       python: 3.11
     commands:
       - npm install -g aws-cdk@2
-      - pip install -r requirements.txt
+      - pip install -e .
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
