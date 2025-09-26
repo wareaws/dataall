@@ -7,6 +7,13 @@
     "@aws-cdk/core:stackRelativeExports": false,
     "repository_source": "codestar_connection",
     "repo_string": "wareaws/dataall",
-    "repo_connection_arn": "arn:aws:codestar-connections:us-east-1:339712956201:connection/3ccc5011-a82d-449a-8d32-e6eda7902e03"
+    "repo_connection_arn": "arn:aws:codestar-connections:us-east-1:339712956201:connection/3ccc5011-a82d-449a-8d32-e6eda7902e03",
+    "DeploymentEnvironments": [
+      {
+        "envname": "dev",
+        "account": "339712956201",
+        "region": "us-east-1"
+      } 
+    ]
   }
 }
